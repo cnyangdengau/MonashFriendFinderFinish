@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">MonashFriendFinderTest</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Monash Friend Finder Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_subsribe">Subsribe</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="Unit_Code_array">
+        <item>FIT5046</item>
+        <item>FIT5047</item>
+        <item>FIT5148</item>
+        <item>FIT5083</item>
+        <item>FIT5211</item>
+    </string-array>
+
+    <string-array name="Distance_array">
+        <item>10 M</item>
+        <item>50 M</item>
+        <item>100 M</item>
+        <item>500 M</item>
+        <item>1000 M</item>
+    </string-array>
+
+    <string-array name="Favourite_Sport_array">
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Tennis</item>
+        <item>Volleyball</item>
+    </string-array>
+
+    <string-array name="Native_Language_array">
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Spanish</item>
+        <item>Franch</item>
+    </string-array>
+
+    <string-array name="Nationality_array">
+        <item>Australian</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>American</item>
+        <item>Franch</item>
+    </string-array>
+
+    <string-array name="Course_array">
+        <item>MIT</item>
+        <item>MDS</item>
+        <item>MBIS</item>
+        <item>MN</item>
+    </string-array>
+
+    <string-array name="year_array">
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+    </string-array>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_reports">ReportsActivity</string>
+    <string name="title_activity_map2">MapActivity2</string>
+    <string name="title_activity_sec_report">SecReportActivity</string>
+</resources>

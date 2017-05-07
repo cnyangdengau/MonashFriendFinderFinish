@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yang_deng.monashfriendfindertest.MainActivity">
+
+    <ScrollView
+        android:id="@+id/login_form_sub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/FriendsLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textFriendsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All your friends are listed"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_FriendsMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View All your friends in the map" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
